@@ -1,0 +1,6 @@
+CrashID,Date,Road,Officer_Manner,Narrative,Severity,Weather,Lighting
+2024-001,2024-01-03,US-60 EB,rear end,V1 struck rear bumper of V2 stopped at red light.,Minor,Clear,Daylight
+2024-002,2024-01-03,Main St @ 5th,hit from behind,"Driver following too close, hit from behind when V2 slowed.",Minor,Clear,Daylight
+2024-003,2024-01-04,I-10 WB,REAR-END COLL,V2 slowed due to congestion; V1 failed to reduce speed.,Serious,Rain,Daylight
+2024-004,2024-01-05,Elm Rd,rearend,V1 rearended parked vehicle on shoulder.,Minor,Fog,Dark
+2024-005,2024-01-05,SR-51 SB,t-bone,"Left turn conflict, t-bone passenger side.",Serious,Clear,Dawn

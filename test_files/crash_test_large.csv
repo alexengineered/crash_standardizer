@@ -1,0 +1,51 @@
+CrashID,Date,Road,Officer_Manner,Narrative,Severity,Weather,Lighting
+2024-101,2024-03-25,I-17 NB,frontal impact,"Vehicle drifted lanes, causing frontal impact.",Minor,Clear,Daylight
+2024-102,2024-03-20,Broadway Rd,pedestrian struck,Pedestrian was struck while crossing roadway.,Serious,Snow,Dark
+2024-103,2024-03-14,I-10 EB,rearended slowing traffic,V1 rearended V2 during sudden slowdown.,Minor,Fog,Dark - Lighted
+2024-104,2024-03-05,Loop-202 WB,t-bone at intersection,V1 turned left; V2 struck passenger side.,Serious,Clear,Dark - Lighted
+2024-105,2024-03-05,Main St @ Rural,rear-end coll,V1 rear-ended V2 in congestion.,Minor,Clear,Dark - Lighted
+2024-106,2024-03-18,Loop-202 WB,hit tree,V1 veered off road and hit a tree.,Minor,Cloudy,Daylight
+2024-107,2024-03-11,Main St @ Rural,t-bone at intersection,V1 turned left; V2 struck passenger side.,Fatal,Snow,Dark
+2024-108,2024-03-20,Broadway Rd,rollover,Vehicle lost control and rolled over.,Serious,Clear,Dusk
+2024-109,2024-03-14,7th St SB,angle collision,"V1 failed to yield, causing angle collision.",Minor,Rain,Dusk
+2024-110,2024-03-18,Broadway Rd,rollover,Vehicle lost control and rolled over.,Serious,Fog,Dark - Lighted
+2024-111,2024-03-02,7th St SB,hit tree,V1 veered off road and hit a tree.,Fatal,Snow,Daylight
+2024-112,2024-03-03,SR-51 NB,rollover,Vehicle lost control and rolled over.,Serious,Clear,Dark - Lighted
+2024-113,2024-03-07,Scottsdale Rd,rear-end coll,V1 rear-ended V2 in congestion.,Fatal,Snow,Dusk
+2024-114,2024-03-04,I-10 EB,t-bone at intersection,V1 turned left; V2 struck passenger side.,Fatal,Cloudy,Daylight
+2024-115,2024-03-27,Thomas Rd,t-bone at intersection,V1 turned left; V2 struck passenger side.,Minor,Rain,Dark
+2024-116,2024-03-22,Scottsdale Rd,rearended slowing traffic,V1 rearended V2 during sudden slowdown.,Minor,Cloudy,Dusk
+2024-117,2024-03-27,7th St SB,side swipe opposite direction,Improper passing caused opposite-direction sideswipe.,Minor,Fog,Dawn
+2024-118,2024-03-02,Camelback Rd,rearended slowing traffic,V1 rearended V2 during sudden slowdown.,Serious,Cloudy,Dusk
+2024-119,2024-03-06,Bell Rd @ 19th Ave,bicycle collision,Vehicle struck bicyclist in bike lane.,Minor,Fog,Daylight
+2024-120,2024-03-14,Scottsdale Rd,side swipe opposite direction,Improper passing caused opposite-direction sideswipe.,Serious,Cloudy,Dusk
+2024-121,2024-03-19,7th St SB,single vehicle,Single vehicle left roadway and crashed.,Serious,Rain,Dark - Lighted
+2024-122,2024-03-25,Camelback Rd,sideswiped same direction,"V2 drifted into V1 lane, sideswiping V1.",Fatal,Cloudy,Dark - Lighted
+2024-123,2024-03-09,Loop-202 WB,t-bone at intersection,V1 turned left; V2 struck passenger side.,Serious,Snow,Dark - Lighted
+2024-124,2024-03-17,Scottsdale Rd,t-bone at intersection,V1 turned left; V2 struck passenger side.,Minor,Rain,Daylight
+2024-125,2024-03-05,Main St @ Rural,head on collision,"V1 crossed centerline, colliding head-on with V2.",Fatal,Rain,Dark - Lighted
+2024-126,2024-03-12,Camelback Rd,rollover,Vehicle lost control and rolled over.,Serious,Cloudy,Dark
+2024-127,2024-03-01,Loop-202 WB,bicycle collision,Vehicle struck bicyclist in bike lane.,Fatal,Rain,Dusk
+2024-128,2024-03-05,Camelback Rd,head on collision,"V1 crossed centerline, colliding head-on with V2.",Minor,Cloudy,Daylight
+2024-129,2024-03-20,7th St SB,rearended slowing traffic,V1 rearended V2 during sudden slowdown.,Serious,Fog,Dark
+2024-130,2024-03-15,McDowell Rd,single vehicle,Single vehicle left roadway and crashed.,Serious,Rain,Dawn
+2024-131,2024-03-13,Main St @ Rural,bicycle collision,Vehicle struck bicyclist in bike lane.,Serious,Clear,Dawn
+2024-132,2024-03-09,7th St SB,side swipe opposite direction,Improper passing caused opposite-direction sideswipe.,Fatal,Rain,Daylight
+2024-133,2024-03-27,Scottsdale Rd,rear end,V1 struck rear of V2 slowing for traffic.,Serious,Snow,Daylight
+2024-134,2024-03-19,Scottsdale Rd,t-bone at intersection,V1 turned left; V2 struck passenger side.,Fatal,Cloudy,Daylight
+2024-135,2024-03-23,SR-51 NB,bicycle collision,Vehicle struck bicyclist in bike lane.,Fatal,Rain,Dark - Lighted
+2024-136,2024-03-06,Thomas Rd,side swipe opposite direction,Improper passing caused opposite-direction sideswipe.,Serious,Rain,Dawn
+2024-137,2024-03-20,Loop-202 WB,side swipe opposite direction,Improper passing caused opposite-direction sideswipe.,Serious,Fog,Daylight
+2024-138,2024-03-13,Loop-202 WB,rollover,Vehicle lost control and rolled over.,Minor,Fog,Dusk
+2024-139,2024-03-27,I-17 NB,fixed object,V1 left roadway and struck fixed object.,Fatal,Snow,Dusk
+2024-140,2024-03-26,Camelback Rd,hit from behind,"Driver following too close, hit from behind.",Serious,Rain,Dawn
+2024-141,2024-03-24,Thomas Rd,rearended slowing traffic,V1 rearended V2 during sudden slowdown.,Minor,Rain,Dawn
+2024-142,2024-03-19,SR-51 NB,fixed object,V1 left roadway and struck fixed object.,Minor,Rain,Dusk
+2024-143,2024-03-28,Glendale Ave,angle collision,"V1 failed to yield, causing angle collision.",Serious,Fog,Daylight
+2024-144,2024-03-02,Scottsdale Rd,angle collision,"V1 failed to yield, causing angle collision.",Minor,Clear,Daylight
+2024-145,2024-03-19,SR-51 NB,t-bone at intersection,V1 turned left; V2 struck passenger side.,Minor,Cloudy,Dawn
+2024-146,2024-03-07,Bell Rd @ 19th Ave,bicycle collision,Vehicle struck bicyclist in bike lane.,Serious,Cloudy,Dark
+2024-147,2024-03-20,I-17 NB,angle collision,"V1 failed to yield, causing angle collision.",Fatal,Snow,Daylight
+2024-148,2024-03-17,US-60 EB,rollover,Vehicle lost control and rolled over.,Serious,Cloudy,Dark - Lighted
+2024-149,2024-03-22,McDowell Rd,rear-end coll,V1 rear-ended V2 in congestion.,Minor,Snow,Dusk
+2024-150,2024-03-21,Thomas Rd,rollover,Vehicle lost control and rolled over.,Fatal,Rain,Dark

@@ -1,0 +1,1862 @@
+{
+  "_metadata": {
+    "version": "MMUCC 5th/6th Edition",
+    "source": "NHTSA Model Minimum Uniform Crash Criteria",
+    "last_updated": "2025-01",
+    "notes": "Codes align with MMUCC standard. 98=Other, 99=Unknown across all categories."
+  },
+  "manner_of_collision": {
+    "label": "Manner of Collision (C9)",
+    "codes": {
+      "0": "Not a Collision between Two Moving Vehicles",
+      "1": "Angle",
+      "2": "Front to Front (Head-On)",
+      "3": "Front to Rear (Rear-End)",
+      "4": "Rear to Rear",
+      "5": "Rear to Side",
+      "6": "Sideswipe - Opposite Direction",
+      "7": "Sideswipe - Same Direction",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "0": [
+        "not collision",
+        "single vehicle",
+        "non-collision",
+        "no collision",
+        "pedestrian",
+        "ped",
+        "struck pedestrian",
+        "hit pedestrian",
+        "bicycle",
+        "bike",
+        "cyclist",
+        "struck bicycle",
+        "parked",
+        "parked vehicle",
+        "parked car",
+        "unoccupied vehicle",
+        "tree",
+        "pole",
+        "guardrail",
+        "fixed object",
+        "rollover",
+        "overturned"
+      ],
+      "1": [
+        "angle",
+        "t-bone",
+        "tbone",
+        "t bone",
+        "broadside",
+        "right angle",
+        "side impact",
+        "intersection",
+        "ran red light",
+        "ran stop sign",
+        "failed to yield",
+        "turned into path",
+        "pulled out",
+        "90 degree"
+      ],
+      "2": [
+        "head on",
+        "head-on",
+        "headon",
+        "frontal",
+        "front to front",
+        "front-to-front",
+        "opposing directions",
+        "crossed centerline",
+        "wrong way"
+      ],
+      "3": [
+        "rear end",
+        "rear-end",
+        "rearend",
+        "rearended",
+        "rear ended",
+        "front to rear",
+        "hit from behind",
+        "struck from behind",
+        "struck in rear",
+        "following too close",
+        "tailgating",
+        "rear collision",
+        "back end",
+        "rear impact"
+      ],
+      "4": [
+        "rear to rear",
+        "backing",
+        "both reversing"
+      ],
+      "5": [
+        "rear to side"
+      ],
+      "6": [
+        "sideswipe opposite",
+        "opposite direction sideswipe",
+        "side swipe opposite",
+        "passing collision opposite"
+      ],
+      "7": [
+        "sideswipe same",
+        "sideswipe same direction",
+        "sideswiped same",
+        "lane change",
+        "improper lane change",
+        "merged into",
+        "drifted into lane",
+        "same direction sideswipe",
+        "side swipe same"
+      ],
+      "98": [
+        "other"
+      ],
+      "99": [
+        "unknown",
+        "not stated",
+        "unspecified",
+        "undetermined"
+      ]
+    }
+  },
+  "injury_severity": {
+    "label": "Injury Severity - KABCO (P5)",
+    "codes": {
+      "1": "K - Fatal",
+      "2": "A - Suspected Serious",
+      "3": "B - Suspected Minor",
+      "4": "C - Possible",
+      "5": "O - No Apparent"
+    },
+    "synonyms": {
+      "1": [
+        "fatal",
+        "fatality",
+        "death",
+        "killed",
+        "deceased",
+        "died",
+        "k",
+        "fatal injury",
+        "doa",
+        "dead on arrival"
+      ],
+      "2": [
+        "serious injury",
+        "serious",
+        "incapacitating",
+        "severe",
+        "a injury",
+        "suspected serious",
+        "major injury",
+        "critical",
+        "life threatening",
+        "hospitalized"
+      ],
+      "3": [
+        "minor injury",
+        "minor",
+        "visible injury",
+        "non-incapacitating",
+        "b injury",
+        "suspected minor",
+        "moderate",
+        "evident injury"
+      ],
+      "4": [
+        "possible injury",
+        "complaint of pain",
+        "possible",
+        "c injury",
+        "complained of",
+        "pain",
+        "no visible injury",
+        "claimed injury"
+      ],
+      "5": [
+        "no injury",
+        "none",
+        "no apparent injury",
+        "o injury",
+        "property damage only",
+        "pdo",
+        "uninjured",
+        "not injured",
+        "unhurt"
+      ]
+    }
+  },
+  "weather_condition": {
+    "label": "Weather Condition (C11)",
+    "codes": {
+      "1": "Blowing Sand/Soil/Dirt",
+      "2": "Blowing Snow",
+      "3": "Clear",
+      "4": "Cloudy",
+      "5": "Fog/Smog/Smoke",
+      "6": "Freezing Rain or Drizzle",
+      "7": "Rain",
+      "8": "Severe Crosswinds",
+      "9": "Sleet or Hail",
+      "10": "Snow",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "1": [
+        "blowing sand",
+        "blowing dirt",
+        "dust storm",
+        "sandstorm",
+        "blowing soil"
+      ],
+      "2": [
+        "blowing snow",
+        "ground blizzard",
+        "drifting snow"
+      ],
+      "3": [
+        "clear",
+        "sunny",
+        "fair",
+        "no adverse conditions",
+        "bright",
+        "fine"
+      ],
+      "4": [
+        "cloudy",
+        "overcast",
+        "clouds",
+        "partly cloudy",
+        "mostly cloudy"
+      ],
+      "5": [
+        "fog",
+        "foggy",
+        "mist",
+        "misty",
+        "haze",
+        "hazy",
+        "smog",
+        "smoke"
+      ],
+      "6": [
+        "freezing rain",
+        "freezing drizzle",
+        "ice storm",
+        "glaze"
+      ],
+      "7": [
+        "rain",
+        "raining",
+        "wet",
+        "rainy",
+        "shower",
+        "drizzle",
+        "precipitation",
+        "sprinkle"
+      ],
+      "8": [
+        "wind",
+        "windy",
+        "strong wind",
+        "gusty",
+        "crosswind",
+        "severe wind",
+        "high wind"
+      ],
+      "9": [
+        "sleet",
+        "hail",
+        "ice pellets",
+        "hailing"
+      ],
+      "10": [
+        "snow",
+        "snowing",
+        "snowy",
+        "winter storm",
+        "snowfall",
+        "flurries"
+      ],
+      "98": [
+        "other"
+      ],
+      "99": [
+        "unknown",
+        "not stated"
+      ]
+    }
+  },
+  "light_condition": {
+    "label": "Light Condition (C12)",
+    "codes": {
+      "1": "Daylight",
+      "2": "Dawn",
+      "3": "Dusk",
+      "4": "Dark - Lighted",
+      "5": "Dark - Not Lighted",
+      "6": "Dark - Unknown Lighting",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "1": [
+        "daylight",
+        "day",
+        "daytime",
+        "light",
+        "sunny",
+        "afternoon",
+        "morning light"
+      ],
+      "2": [
+        "dawn",
+        "sunrise",
+        "early morning",
+        "first light",
+        "daybreak"
+      ],
+      "3": [
+        "dusk",
+        "sunset",
+        "evening",
+        "twilight",
+        "sundown"
+      ],
+      "4": [
+        "dark lighted",
+        "dark - lighted",
+        "night lighted",
+        "street lights",
+        "illuminated",
+        "lit roadway"
+      ],
+      "5": [
+        "dark not lighted",
+        "dark - not lighted",
+        "dark",
+        "night",
+        "no lights",
+        "unlit",
+        "no street lights"
+      ],
+      "6": [
+        "dark unknown",
+        "dark - unknown",
+        "night unknown lighting"
+      ],
+      "98": [
+        "other"
+      ],
+      "99": [
+        "unknown",
+        "not stated"
+      ]
+    }
+  },
+  "road_surface_condition": {
+    "label": "Road Surface Condition (C13)",
+    "codes": {
+      "1": "Dry",
+      "2": "Wet",
+      "3": "Snow",
+      "4": "Ice/Frost",
+      "5": "Slush",
+      "6": "Water (Standing/Moving)",
+      "7": "Sand",
+      "8": "Mud/Dirt/Gravel",
+      "9": "Oil",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "1": [
+        "dry"
+      ],
+      "2": [
+        "wet",
+        "damp",
+        "moist"
+      ],
+      "3": [
+        "snow",
+        "snowy",
+        "snow covered",
+        "packed snow"
+      ],
+      "4": [
+        "ice",
+        "icy",
+        "frost",
+        "frozen",
+        "black ice",
+        "ice covered"
+      ],
+      "5": [
+        "slush",
+        "slushy",
+        "melting snow"
+      ],
+      "6": [
+        "water",
+        "standing water",
+        "flooded",
+        "puddles",
+        "hydroplane"
+      ],
+      "7": [
+        "sand",
+        "sandy",
+        "loose sand"
+      ],
+      "8": [
+        "mud",
+        "dirt",
+        "gravel",
+        "muddy",
+        "loose gravel",
+        "unpaved"
+      ],
+      "9": [
+        "oil",
+        "oily",
+        "slick",
+        "fuel spill"
+      ],
+      "98": [
+        "other"
+      ],
+      "99": [
+        "unknown",
+        "not stated"
+      ]
+    }
+  },
+  "first_harmful_event": {
+    "label": "First Harmful Event (C7)",
+    "codes": {
+      "1": "Overturn/Rollover",
+      "2": "Fire/Explosion",
+      "3": "Immersion",
+      "4": "Jackknife",
+      "5": "Cargo/Equipment Loss or Shift",
+      "6": "Fell/Jumped from Vehicle",
+      "7": "Thrown or Falling Object",
+      "8": "Other Non-Collision",
+      "10": "Pedestrian",
+      "11": "Pedalcycle",
+      "12": "Railway Vehicle",
+      "13": "Animal",
+      "14": "Motor Vehicle in Transport",
+      "15": "Parked Motor Vehicle",
+      "16": "Work Zone Equipment",
+      "17": "Struck by Falling/Shifting Cargo",
+      "18": "Other Non-Fixed Object",
+      "20": "Impact Attenuator/Crash Cushion",
+      "21": "Bridge Overhead Structure",
+      "22": "Bridge Pier or Support",
+      "23": "Bridge Rail",
+      "24": "Culvert",
+      "25": "Curb",
+      "26": "Ditch",
+      "27": "Embankment",
+      "28": "Guardrail Face",
+      "29": "Guardrail End",
+      "30": "Cable Barrier",
+      "31": "Concrete Traffic Barrier",
+      "32": "Other Traffic Barrier",
+      "33": "Tree",
+      "34": "Utility Pole/Light Support",
+      "35": "Traffic Sign Support",
+      "36": "Traffic Signal Support",
+      "37": "Other Post/Pole/Support",
+      "38": "Fence",
+      "39": "Mailbox",
+      "40": "Other Fixed Object",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "1": [
+        "rollover",
+        "roll over",
+        "rolled over",
+        "overturned",
+        "flipped",
+        "vehicle flipped",
+        "rolled"
+      ],
+      "2": [
+        "fire",
+        "explosion",
+        "burned",
+        "caught fire",
+        "vehicle fire"
+      ],
+      "3": [
+        "immersion",
+        "submerged",
+        "into water",
+        "into lake",
+        "into river",
+        "drowned"
+      ],
+      "4": [
+        "jackknife",
+        "jack-knife",
+        "jack knife",
+        "trailer swing"
+      ],
+      "5": [
+        "cargo loss",
+        "equipment loss",
+        "load shift",
+        "cargo shift",
+        "lost load"
+      ],
+      "6": [
+        "fell from vehicle",
+        "jumped from vehicle",
+        "ejected",
+        "fell out"
+      ],
+      "7": [
+        "thrown object",
+        "falling object",
+        "debris strike"
+      ],
+      "8": [
+        "other non-collision"
+      ],
+      "10": [
+        "pedestrian",
+        "hit pedestrian",
+        "struck pedestrian",
+        "ped",
+        "walker",
+        "person walking"
+      ],
+      "11": [
+        "bicycle",
+        "bicyclist",
+        "bike",
+        "cyclist",
+        "pedalcycle",
+        "hit bicycle",
+        "struck bicycle"
+      ],
+      "12": [
+        "train",
+        "railway",
+        "railroad",
+        "locomotive",
+        "rail vehicle"
+      ],
+      "13": [
+        "animal",
+        "deer",
+        "dog",
+        "wildlife",
+        "hit animal",
+        "struck animal"
+      ],
+      "14": [
+        "motor vehicle",
+        "other vehicle",
+        "mv in transport",
+        "vehicle collision"
+      ],
+      "15": [
+        "parked vehicle",
+        "parked car",
+        "hit parked",
+        "struck parked",
+        "unoccupied vehicle"
+      ],
+      "16": [
+        "work zone",
+        "construction equipment",
+        "maintenance equipment"
+      ],
+      "17": [
+        "struck by cargo",
+        "falling cargo",
+        "shifting cargo"
+      ],
+      "18": [
+        "other object",
+        "non-fixed object"
+      ],
+      "20": [
+        "attenuator",
+        "crash cushion",
+        "impact attenuator",
+        "sand barrel"
+      ],
+      "21": [
+        "bridge overhead",
+        "overpass",
+        "bridge structure"
+      ],
+      "22": [
+        "bridge pier",
+        "bridge support",
+        "bridge column"
+      ],
+      "23": [
+        "bridge rail",
+        "bridge barrier"
+      ],
+      "24": [
+        "culvert"
+      ],
+      "25": [
+        "curb",
+        "kerb"
+      ],
+      "26": [
+        "ditch",
+        "drainage ditch"
+      ],
+      "27": [
+        "embankment",
+        "earth embankment",
+        "slope"
+      ],
+      "28": [
+        "guardrail",
+        "guard rail",
+        "guardrail face"
+      ],
+      "29": [
+        "guardrail end",
+        "end terminal",
+        "guardrail terminal"
+      ],
+      "30": [
+        "cable barrier",
+        "cable guardrail",
+        "wire rope"
+      ],
+      "31": [
+        "concrete barrier",
+        "jersey barrier",
+        "concrete wall",
+        "k-rail"
+      ],
+      "32": [
+        "traffic barrier",
+        "other barrier"
+      ],
+      "33": [
+        "tree",
+        "hit tree",
+        "struck tree",
+        "tree standing"
+      ],
+      "34": [
+        "utility pole",
+        "light pole",
+        "power pole",
+        "telephone pole",
+        "light support"
+      ],
+      "35": [
+        "sign",
+        "traffic sign",
+        "sign support",
+        "road sign"
+      ],
+      "36": [
+        "signal",
+        "traffic signal",
+        "signal support",
+        "traffic light"
+      ],
+      "37": [
+        "post",
+        "pole",
+        "other pole",
+        "other post"
+      ],
+      "38": [
+        "fence",
+        "fencing"
+      ],
+      "39": [
+        "mailbox",
+        "mail box"
+      ],
+      "40": [
+        "wall",
+        "building",
+        "tunnel",
+        "other fixed object",
+        "fixed object"
+      ],
+      "98": [
+        "other"
+      ],
+      "99": [
+        "unknown",
+        "not stated"
+      ]
+    }
+  },
+  "contributing_factor_driver": {
+    "label": "Driver Contributing Factors (P14/V24)",
+    "codes": {
+      "0": "None",
+      "1": "Ran Off Road",
+      "2": "Failed to Yield Right of Way",
+      "3": "Ran Red Light",
+      "4": "Ran Stop Sign",
+      "5": "Exceeded Speed Limit",
+      "6": "Driving Too Fast for Conditions",
+      "7": "Made Improper Turn",
+      "8": "Wrong Side or Wrong Way",
+      "9": "Followed Too Closely",
+      "10": "Failed to Keep in Proper Lane",
+      "11": "Improper Lane Change",
+      "12": "Improper Passing",
+      "13": "Improper Backing",
+      "14": "Swerving to Avoid",
+      "15": "Overcorrecting/Oversteering",
+      "16": "Operating Vehicle in Reckless Manner",
+      "17": "Distracted/Inattentive",
+      "18": "Fatigued/Asleep",
+      "19": "Operating Defective Equipment",
+      "20": "Under Influence of Alcohol",
+      "21": "Under Influence of Drugs",
+      "22": "Under Combined Influence",
+      "23": "Physical Impairment",
+      "24": "Ill/Medical Event",
+      "25": "Vision Obscured",
+      "26": "Disregarded Other Traffic Sign",
+      "27": "Disregarded Other Road Markings",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "0": [
+        "none",
+        "no contributing factor",
+        "not a factor"
+      ],
+      "1": [
+        "ran off road",
+        "left roadway",
+        "departed roadway",
+        "off road"
+      ],
+      "2": [
+        "failed to yield",
+        "failure to yield",
+        "did not yield",
+        "ftyw",
+        "yield violation"
+      ],
+      "3": [
+        "ran red light",
+        "red light violation",
+        "disregarded red light",
+        "ran light"
+      ],
+      "4": [
+        "ran stop sign",
+        "stop sign violation",
+        "disregarded stop sign",
+        "rolled stop"
+      ],
+      "5": [
+        "exceeded speed limit",
+        "speeding",
+        "over speed limit",
+        "excessive speed"
+      ],
+      "6": [
+        "too fast for conditions",
+        "unsafe speed",
+        "speed too fast",
+        "driving too fast"
+      ],
+      "7": [
+        "improper turn",
+        "illegal turn",
+        "wrong turn",
+        "bad turn"
+      ],
+      "8": [
+        "wrong side",
+        "wrong way",
+        "driving wrong way",
+        "crossed centerline",
+        "left of center"
+      ],
+      "9": [
+        "followed too closely",
+        "following too close",
+        "tailgating",
+        "too close"
+      ],
+      "10": [
+        "failed to keep lane",
+        "lane departure",
+        "drifted from lane",
+        "left lane"
+      ],
+      "11": [
+        "improper lane change",
+        "unsafe lane change",
+        "lane change violation"
+      ],
+      "12": [
+        "improper passing",
+        "illegal passing",
+        "unsafe passing",
+        "passed improperly"
+      ],
+      "13": [
+        "improper backing",
+        "backing unsafely",
+        "backed into"
+      ],
+      "14": [
+        "swerving",
+        "swerved to avoid",
+        "evasive action",
+        "avoiding"
+      ],
+      "15": [
+        "overcorrecting",
+        "oversteering",
+        "overcorrected",
+        "over-corrected"
+      ],
+      "16": [
+        "reckless",
+        "reckless driving",
+        "careless driving",
+        "aggressive driving"
+      ],
+      "17": [
+        "distracted",
+        "inattentive",
+        "not paying attention",
+        "cell phone",
+        "texting",
+        "distraction"
+      ],
+      "18": [
+        "fatigued",
+        "asleep",
+        "drowsy",
+        "fell asleep",
+        "fatigue",
+        "sleepy",
+        "tired"
+      ],
+      "19": [
+        "defective equipment",
+        "vehicle defect",
+        "mechanical failure",
+        "brake failure",
+        "tire blowout"
+      ],
+      "20": [
+        "alcohol",
+        "dui",
+        "dwi",
+        "drunk",
+        "intoxicated",
+        "under influence alcohol",
+        "drinking"
+      ],
+      "21": [
+        "drugs",
+        "under influence drugs",
+        "drugged",
+        "drug impaired",
+        "duid"
+      ],
+      "22": [
+        "combined influence",
+        "alcohol and drugs",
+        "drugs and alcohol"
+      ],
+      "23": [
+        "physical impairment",
+        "disabled",
+        "handicapped",
+        "physical condition"
+      ],
+      "24": [
+        "ill",
+        "medical",
+        "medical event",
+        "medical emergency",
+        "heart attack",
+        "seizure",
+        "stroke"
+      ],
+      "25": [
+        "vision obscured",
+        "blind spot",
+        "could not see",
+        "obstructed view",
+        "sun glare"
+      ],
+      "26": [
+        "disregarded sign",
+        "ignored sign",
+        "traffic sign violation"
+      ],
+      "27": [
+        "disregarded markings",
+        "crossed markings",
+        "ignored road markings"
+      ],
+      "98": [
+        "other"
+      ],
+      "99": [
+        "unknown",
+        "not stated",
+        "undetermined"
+      ]
+    }
+  },
+  "distracted_by": {
+    "label": "Driver Distracted By (P18)",
+    "codes": {
+      "0": "Not Distracted",
+      "1": "Electronic Device (Phone/Tablet)",
+      "2": "Texting",
+      "3": "Other Electronic Device",
+      "4": "Passenger",
+      "5": "External Distraction",
+      "6": "Eating or Drinking",
+      "7": "Smoking",
+      "8": "Adjusting Controls",
+      "9": "Moving Object in Vehicle",
+      "10": "Inattention/Lost in Thought",
+      "11": "Other Inside Vehicle",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "0": [
+        "not distracted",
+        "no distraction",
+        "none"
+      ],
+      "1": [
+        "phone",
+        "cell phone",
+        "mobile phone",
+        "handheld phone",
+        "talking on phone",
+        "tablet",
+        "electronic device"
+      ],
+      "2": [
+        "texting",
+        "text message",
+        "messaging",
+        "typing on phone"
+      ],
+      "3": [
+        "gps",
+        "navigation",
+        "radio",
+        "stereo",
+        "other electronic"
+      ],
+      "4": [
+        "passenger",
+        "talking to passenger",
+        "other occupant"
+      ],
+      "5": [
+        "external",
+        "outside vehicle",
+        "looking outside",
+        "rubbernecking",
+        "distracted by crash"
+      ],
+      "6": [
+        "eating",
+        "drinking",
+        "food",
+        "beverage"
+      ],
+      "7": [
+        "smoking",
+        "cigarette",
+        "vaping"
+      ],
+      "8": [
+        "adjusting controls",
+        "climate control",
+        "adjusting mirror",
+        "adjusting radio"
+      ],
+      "9": [
+        "moving object",
+        "pet",
+        "insect",
+        "animal in vehicle",
+        "object in vehicle"
+      ],
+      "10": [
+        "inattention",
+        "lost in thought",
+        "daydreaming",
+        "not paying attention"
+      ],
+      "11": [
+        "other inside",
+        "grooming",
+        "reaching for object"
+      ],
+      "98": [
+        "other distraction"
+      ],
+      "99": [
+        "unknown",
+        "not stated"
+      ]
+    }
+  },
+  "condition_at_time": {
+    "label": "Driver Condition at Time of Crash (P19)",
+    "codes": {
+      "0": "Apparently Normal",
+      "1": "Physical Impairment",
+      "2": "Emotional",
+      "3": "Ill/Sick",
+      "4": "Asleep/Fatigued",
+      "5": "Under Influence - Alcohol",
+      "6": "Under Influence - Drugs",
+      "7": "Under Influence - Combined",
+      "8": "Medicated",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "0": [
+        "normal",
+        "apparently normal",
+        "no impairment",
+        "alert",
+        "sober"
+      ],
+      "1": [
+        "physical impairment",
+        "disabled",
+        "deaf",
+        "blind",
+        "impaired"
+      ],
+      "2": [
+        "emotional",
+        "upset",
+        "angry",
+        "depressed",
+        "crying",
+        "road rage"
+      ],
+      "3": [
+        "ill",
+        "sick",
+        "medical condition",
+        "heart attack",
+        "seizure",
+        "diabetic",
+        "stroke"
+      ],
+      "4": [
+        "asleep",
+        "fatigued",
+        "drowsy",
+        "fell asleep",
+        "tired",
+        "sleepy"
+      ],
+      "5": [
+        "alcohol",
+        "drunk",
+        "intoxicated",
+        "dui",
+        "dwi",
+        "had been drinking"
+      ],
+      "6": [
+        "drugs",
+        "drugged",
+        "drug impaired",
+        "narcotics",
+        "marijuana",
+        "high"
+      ],
+      "7": [
+        "combined",
+        "alcohol and drugs",
+        "both alcohol and drugs"
+      ],
+      "8": [
+        "medicated",
+        "prescription drugs",
+        "medication",
+        "on medication"
+      ],
+      "98": [
+        "other"
+      ],
+      "99": [
+        "unknown",
+        "not stated"
+      ]
+    }
+  },
+  "junction_type": {
+    "label": "Type of Junction/Intersection (C15/C16)",
+    "codes": {
+      "0": "Non-Junction",
+      "1": "Intersection - Four-Way",
+      "2": "Intersection - T",
+      "3": "Intersection - Y",
+      "4": "Intersection - Five or More",
+      "5": "Roundabout/Traffic Circle",
+      "6": "Driveway/Alley Access",
+      "7": "Entrance/Exit Ramp",
+      "8": "Railway Crossing",
+      "9": "Crossover",
+      "10": "Shared-Use Path/Trail",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "0": [
+        "non-junction",
+        "not at junction",
+        "not intersection",
+        "midblock",
+        "between intersections"
+      ],
+      "1": [
+        "four way",
+        "four-way",
+        "4-way",
+        "cross intersection",
+        "4 way",
+        "crossroads"
+      ],
+      "2": [
+        "t intersection",
+        "t-intersection",
+        "three way",
+        "3-way",
+        "t junction"
+      ],
+      "3": [
+        "y intersection",
+        "y-intersection",
+        "wye",
+        "y junction"
+      ],
+      "4": [
+        "five point",
+        "five-way",
+        "5-way",
+        "multi-leg",
+        "star intersection"
+      ],
+      "5": [
+        "roundabout",
+        "traffic circle",
+        "rotary",
+        "circle"
+      ],
+      "6": [
+        "driveway",
+        "alley",
+        "private drive",
+        "parking lot entrance"
+      ],
+      "7": [
+        "ramp",
+        "entrance ramp",
+        "exit ramp",
+        "on-ramp",
+        "off-ramp",
+        "interchange"
+      ],
+      "8": [
+        "railway",
+        "railroad",
+        "rail crossing",
+        "train crossing",
+        "rr crossing"
+      ],
+      "9": [
+        "crossover",
+        "median crossover",
+        "cross-over"
+      ],
+      "10": [
+        "shared use",
+        "trail crossing",
+        "bike path",
+        "shared path"
+      ],
+      "98": [
+        "other junction"
+      ],
+      "99": [
+        "unknown",
+        "not stated"
+      ]
+    }
+  },
+  "vehicle_body_type": {
+    "label": "Vehicle Body Type (V8)",
+    "codes": {
+      "1": "Passenger Car",
+      "2": "SUV/Crossover",
+      "3": "Pickup Truck",
+      "4": "Van - Passenger",
+      "5": "Van - Cargo",
+      "6": "Motorcycle",
+      "7": "Moped/Scooter",
+      "8": "Bus - School",
+      "9": "Bus - Transit",
+      "10": "Bus - Other",
+      "11": "Single Unit Truck (2 axle)",
+      "12": "Single Unit Truck (3+ axle)",
+      "13": "Truck Tractor (Bobtail)",
+      "14": "Tractor/Semi-Trailer",
+      "15": "Tractor/Double",
+      "16": "Motor Home/RV",
+      "17": "ATV/UTV",
+      "18": "Golf Cart/LSV",
+      "19": "Snowmobile",
+      "20": "Farm Equipment",
+      "21": "Construction Equipment",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "1": [
+        "passenger car",
+        "car",
+        "sedan",
+        "coupe",
+        "hatchback",
+        "automobile",
+        "auto"
+      ],
+      "2": [
+        "suv",
+        "sport utility",
+        "crossover",
+        "cuv",
+        "utility vehicle",
+        "4x4"
+      ],
+      "3": [
+        "pickup",
+        "pickup truck",
+        "pick-up",
+        "truck",
+        "light truck"
+      ],
+      "4": [
+        "passenger van",
+        "minivan",
+        "van",
+        "mini-van"
+      ],
+      "5": [
+        "cargo van",
+        "work van",
+        "delivery van",
+        "panel van"
+      ],
+      "6": [
+        "motorcycle",
+        "motorbike",
+        "mc"
+      ],
+      "7": [
+        "moped",
+        "scooter",
+        "motor scooter",
+        "motorized bicycle"
+      ],
+      "8": [
+        "school bus",
+        "schoolbus"
+      ],
+      "9": [
+        "transit bus",
+        "city bus",
+        "metro bus",
+        "public bus"
+      ],
+      "10": [
+        "bus",
+        "charter bus",
+        "tour bus",
+        "coach"
+      ],
+      "11": [
+        "single unit truck",
+        "box truck",
+        "straight truck",
+        "2 axle truck"
+      ],
+      "12": [
+        "single unit 3 axle",
+        "dump truck",
+        "garbage truck",
+        "3 axle"
+      ],
+      "13": [
+        "bobtail",
+        "tractor only",
+        "truck tractor"
+      ],
+      "14": [
+        "semi",
+        "semi-truck",
+        "tractor trailer",
+        "18 wheeler",
+        "eighteen wheeler",
+        "big rig"
+      ],
+      "15": [
+        "double",
+        "tractor double",
+        "doubles",
+        "twin trailers"
+      ],
+      "16": [
+        "motor home",
+        "rv",
+        "recreational vehicle",
+        "camper"
+      ],
+      "17": [
+        "atv",
+        "utv",
+        "all terrain",
+        "side by side",
+        "four wheeler",
+        "quad"
+      ],
+      "18": [
+        "golf cart",
+        "lsv",
+        "low speed vehicle",
+        "neighborhood vehicle"
+      ],
+      "19": [
+        "snowmobile",
+        "snow machine"
+      ],
+      "20": [
+        "farm equipment",
+        "tractor",
+        "combine",
+        "agricultural"
+      ],
+      "21": [
+        "construction equipment",
+        "backhoe",
+        "bulldozer",
+        "excavator",
+        "front loader"
+      ],
+      "98": [
+        "other vehicle"
+      ],
+      "99": [
+        "unknown",
+        "not stated"
+      ]
+    }
+  },
+  "trafficway_type": {
+    "label": "Trafficway Description (V14)",
+    "codes": {
+      "1": "Two-Way, Not Divided",
+      "2": "Two-Way, Divided, Unprotected Median",
+      "3": "Two-Way, Divided, Positive Barrier",
+      "4": "One-Way",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "1": [
+        "two way not divided",
+        "undivided",
+        "two lane road",
+        "2 way undivided"
+      ],
+      "2": [
+        "divided unprotected",
+        "divided no barrier",
+        "painted median",
+        "flush median"
+      ],
+      "3": [
+        "divided barrier",
+        "divided highway",
+        "positive barrier",
+        "concrete median",
+        "cable median"
+      ],
+      "4": [
+        "one way",
+        "one-way",
+        "1 way"
+      ],
+      "98": [
+        "other"
+      ],
+      "99": [
+        "unknown",
+        "not stated"
+      ]
+    }
+  },
+  "traffic_control": {
+    "label": "Traffic Control Device (V17)",
+    "codes": {
+      "0": "No Controls",
+      "1": "Traffic Signal",
+      "2": "Flashing Signal",
+      "3": "Stop Sign",
+      "4": "Yield Sign",
+      "5": "Warning Sign",
+      "6": "Railroad Crossing Device",
+      "7": "School Zone Sign/Signal",
+      "8": "Person (Flagger/Officer)",
+      "9": "Pavement Markings Only",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "0": [
+        "no controls",
+        "no traffic control",
+        "uncontrolled",
+        "none"
+      ],
+      "1": [
+        "traffic signal",
+        "traffic light",
+        "signal",
+        "stop light",
+        "red light"
+      ],
+      "2": [
+        "flashing signal",
+        "flashing light",
+        "caution light",
+        "flashing beacon"
+      ],
+      "3": [
+        "stop sign",
+        "stop"
+      ],
+      "4": [
+        "yield sign",
+        "yield"
+      ],
+      "5": [
+        "warning sign",
+        "curve sign",
+        "speed sign",
+        "caution sign"
+      ],
+      "6": [
+        "railroad",
+        "rail crossing",
+        "rr crossing device",
+        "crossing gate",
+        "railroad signal"
+      ],
+      "7": [
+        "school zone",
+        "school sign",
+        "school signal",
+        "crossing guard"
+      ],
+      "8": [
+        "flagger",
+        "officer",
+        "crossing guard",
+        "traffic control person"
+      ],
+      "9": [
+        "pavement markings",
+        "road markings",
+        "lane markings",
+        "painted lines"
+      ],
+      "98": [
+        "other control"
+      ],
+      "99": [
+        "unknown",
+        "not stated"
+      ]
+    }
+  },
+  "pre_crash_maneuver": {
+    "label": "Pre-Crash Maneuver/Action (V18)",
+    "codes": {
+      "1": "Going Straight",
+      "2": "Turning Left",
+      "3": "Turning Right",
+      "4": "Making U-Turn",
+      "5": "Changing Lanes",
+      "6": "Merging",
+      "7": "Passing/Overtaking",
+      "8": "Slowing",
+      "9": "Stopping",
+      "10": "Stopped in Traffic",
+      "11": "Starting in Traffic",
+      "12": "Backing",
+      "13": "Parked",
+      "14": "Negotiating Curve",
+      "15": "Avoiding Object/Vehicle",
+      "16": "Swerving/Evasive Action",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "1": [
+        "going straight",
+        "proceeding straight",
+        "straight ahead",
+        "through movement",
+        "continued straight",
+        "traveling straight",
+        "heading straight"
+      ],
+      "2": [
+        "turning left",
+        "left turn",
+        "attempting left",
+        "left at intersection",
+        "left from stop",
+        "making left turn"
+      ],
+      "3": [
+        "turning right",
+        "right turn",
+        "attempting right",
+        "right at intersection",
+        "right from stop",
+        "making right turn"
+      ],
+      "4": [
+        "u-turn",
+        "u turn",
+        "making u-turn",
+        "uturn"
+      ],
+      "5": [
+        "changing lanes",
+        "lane change",
+        "changed lanes",
+        "switching lanes"
+      ],
+      "6": [
+        "merging",
+        "merged",
+        "merge",
+        "entering traffic lane",
+        "merged into"
+      ],
+      "7": [
+        "passing",
+        "overtaking",
+        "passed",
+        "overtook",
+        "passing maneuver"
+      ],
+      "8": [
+        "slowing",
+        "slowed",
+        "decelerating",
+        "reducing speed",
+        "braking"
+      ],
+      "9": [
+        "stopping",
+        "coming to stop",
+        "attempting to stop"
+      ],
+      "10": [
+        "stopped in traffic",
+        "stopped at light",
+        "stopped at red",
+        "stopped at stop sign",
+        "waiting in traffic",
+        "stopped in lane"
+      ],
+      "11": [
+        "starting",
+        "starting from stop",
+        "pulling out",
+        "entering traffic",
+        "from parked position",
+        "accelerating from stop"
+      ],
+      "12": [
+        "backing",
+        "reversing",
+        "backed",
+        "backing up",
+        "backed from driveway",
+        "backed into"
+      ],
+      "13": [
+        "parked",
+        "parking",
+        "stopped on shoulder",
+        "disabled on shoulder",
+        "parked vehicle",
+        "stationary"
+      ],
+      "14": [
+        "negotiating curve",
+        "in curve",
+        "rounding curve",
+        "navigating curve",
+        "curve"
+      ],
+      "15": [
+        "avoiding",
+        "avoided",
+        "avoiding object",
+        "avoiding vehicle",
+        "avoiding collision",
+        "evasive"
+      ],
+      "16": [
+        "swerved",
+        "swerving",
+        "evasive action",
+        "took evasive action",
+        "veered",
+        "jerked wheel"
+      ],
+      "98": [
+        "other maneuver",
+        "other action"
+      ],
+      "99": [
+        "unknown",
+        "not stated",
+        "unknown pre-crash action"
+      ]
+    }
+  },
+  "contributing_factor_environment": {
+    "label": "Contributing Factors - Environment/Road (C14)",
+    "codes": {
+      "0": "None Apparent",
+      "1": "Wet/Slippery Surface",
+      "2": "Ice/Snow Covered",
+      "3": "Loose Surface Material",
+      "4": "Debris in Roadway",
+      "5": "Obstruction in Road",
+      "6": "Ruts/Holes/Bumps",
+      "7": "Road Surface Defect",
+      "8": "View Obstructed",
+      "9": "Glare",
+      "10": "Work Zone/Construction",
+      "11": "Traffic Control Malfunction",
+      "12": "Shoulders Defective/Absent",
+      "13": "Non-Highway Work",
+      "14": "Animal in Roadway",
+      "15": "Prior Crash/Incident",
+      "16": "Inadequate Warning Signs",
+      "17": "Road Design/Geometry",
+      "98": "Other",
+      "99": "Unknown"
+    },
+    "synonyms": {
+      "0": [
+        "none",
+        "no roadway defect",
+        "no adverse condition",
+        "none apparent",
+        "no environmental factor",
+        "no contributing factor"
+      ],
+      "1": [
+        "wet road",
+        "wet surface",
+        "slippery",
+        "slick",
+        "standing water",
+        "hydroplaned",
+        "water on roadway",
+        "wet pavement"
+      ],
+      "2": [
+        "ice",
+        "icy",
+        "snow",
+        "snowy",
+        "packed snow",
+        "black ice",
+        "ice covered",
+        "snow covered",
+        "frost"
+      ],
+      "3": [
+        "loose gravel",
+        "gravel",
+        "sand",
+        "loose dirt",
+        "loose material",
+        "loose surface"
+      ],
+      "4": [
+        "debris",
+        "debris in roadway",
+        "tire tread",
+        "cargo in lane",
+        "litter",
+        "road debris"
+      ],
+      "5": [
+        "object in roadway",
+        "obstruction",
+        "fallen tree",
+        "boulder",
+        "object in road",
+        "blocked"
+      ],
+      "6": [
+        "pothole",
+        "ruts",
+        "holes",
+        "bumps",
+        "rough road",
+        "uneven pavement",
+        "rutted"
+      ],
+      "7": [
+        "road defect",
+        "pavement defect",
+        "broken pavement",
+        "road surface defect",
+        "cracked pavement"
+      ],
+      "8": [
+        "view obstructed",
+        "sight distance",
+        "limited sight distance",
+        "view blocked",
+        "blind spot",
+        "hillcrest",
+        "curve sight distance",
+        "vegetation blocking view"
+      ],
+      "9": [
+        "glare",
+        "sun glare",
+        "headlight glare",
+        "reflected glare"
+      ],
+      "10": [
+        "work zone",
+        "construction",
+        "construction area",
+        "lane closure",
+        "flagger",
+        "temporary traffic control",
+        "construction equipment",
+        "road work"
+      ],
+      "11": [
+        "signal out",
+        "signal malfunction",
+        "signal dark",
+        "flashing red",
+        "stop sign missing",
+        "sign knocked down",
+        "traffic control not working",
+        "signal not working"
+      ],
+      "12": [
+        "no shoulder",
+        "soft shoulder",
+        "low shoulder",
+        "high shoulder",
+        "shoulder drop-off",
+        "shoulder defect"
+      ],
+      "13": [
+        "non-highway work",
+        "utility work",
+        "maintenance"
+      ],
+      "14": [
+        "animal",
+        "deer",
+        "elk",
+        "dog",
+        "animal in roadway",
+        "wildlife",
+        "swerved to miss animal",
+        "hit animal"
+      ],
+      "15": [
+        "prior crash",
+        "prior incident",
+        "secondary crash",
+        "crash ahead",
+        "traffic queue"
+      ],
+      "16": [
+        "inadequate signs",
+        "missing signs",
+        "unclear signs",
+        "faded signs",
+        "warning signs missing"
+      ],
+      "17": [
+        "road design",
+        "geometry",
+        "sharp curve",
+        "steep grade",
+        "superelevation",
+        "sight line",
+        "road layout"
+      ],
+      "98": [
+        "other environmental",
+        "other roadway factor"
+      ],
+      "99": [
+        "unknown",
+        "not stated",
+        "unknown environment factor"
+      ]
+    }
+  }
+}
