@@ -90,3 +90,13 @@ Standardized columns appear immediately after their source column for easy revie
 
 - Python 3.10+
 - ~50MB disk space
+
+## License
+
+Free to use and adapt for internal business, personal, or educational use. Please don’t sell it or turn it into a paid product.
+
+Licensed under Creative Commons Attribution–NonCommercial 4.0 (CC BY-NC 4.0)
+
+## Feedback
+
+Found a bug or have a suggestion? Send feedback to contact@alexengineered@gmail.com
