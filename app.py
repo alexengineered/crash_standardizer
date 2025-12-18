@@ -533,4 +533,9 @@ st.markdown("""
 <b>Standards:</b> Based on <a href="https://www.nhtsa.gov/mmucc" target="_blank">MMUCC 5th/6th Edition</a> (Model Minimum Uniform Crash Criteria)<br>
 <b>Matching:</b> Regex -> Fuzzy (rapidfuzz)
 </small>
+
+<small style="margin-top: 2rem; display: block; font-size: 0.8rem;">
+Created by AlexEngineered.  I’d love your feedback or suggestions.<br/>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSf6BDS9OtoC_2Ue-porIyxJdClSO7vqDUh11biJrGxl_Q0-wQ/viewform" target="_blank">Send feedback via Google Forms</a>
+</small>
 """, unsafe_allow_html=True)
