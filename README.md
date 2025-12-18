@@ -99,4 +99,4 @@ Licensed under Creative Commons Attribution–NonCommercial 4.0 (CC BY-NC 4.0)
 
 ## Feedback
 
-Found a bug or have a suggestion? Send feedback to contact@alexengineered@gmail.com
+Found a bug or have a suggestion? Send feedback to contact@alexengineered.com
