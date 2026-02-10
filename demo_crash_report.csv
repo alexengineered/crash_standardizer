@@ -1,0 +1,21 @@
+CrashID,Date,County,City,Route,Milepost,Manner_of_Collision,Injury_Severity,Weather_Condition,Light_Condition,Road_Surface,Traffic_Control,Contributing_Factor_Driver,Vehicle_Type
+CR-2026-00143,2026-03-15,King,Seattle,SR-99,12.3,Rear-end,Minor injury,Clear and dry,Daylight,Dry,Traffic signal,Following too closely,Passenger car
+CR-2026-00144,2026-03-15,Pierce,Tacoma,I-5,142.7,angle collision at intersection,Fatal,Rain,Dusk,Wet,Stop sign,Failed to yield right of way,SUV
+CR-2026-00145,2026-03-16,Snohomish,Everett,US-2,18.9,SIDESWIPE - SAME DIR,C - Possible,Snow,Dark - street lights,Snow/ice,None,Improper lane change,Pickup truck
+CR-2026-00146,2026-03-16,Spokane,Spokane Valley,SR-290,5.1,Head-on,K,Fog,Dark - no lights,Wet,Yield,Wrong side of road,Sedan
+CR-2026-00147,2026-03-17,Thurston,Olympia,US-101,109.2,rear end,O,Cloudy,Daylight,dry,traffic light,distracted - cell phone,Van
+CR-2026-00148,2026-03-17,Clark,Vancouver,I-205,27.8,T-bone,Serious injury,Clear,Morning,Dry,Signal,Ran red light,motorcycle
+CR-2026-00149,2026-03-18,Whatcom,Bellingham,SR-539,22.4,Rearended vehicle in traffic,B,Raining hard,Dusk,standing water,Stop,too fast for conditions,car
+CR-2026-00150,2026-03-18,Yakima,Yakima,SR-24,8.7,sideswiped parked vehicle,PDO,Sunny,Afternoon,Dry,N/A,backing unsafely,truck
+CR-2026-00151,2026-03-19,Kittitas,Ellensburg,I-90,106.3,Hit deer,No injury,Fog/mist,Dawn,Wet,None,Swerving to avoid animal,Passenger vehicle
+CR-2026-00152,2026-03-19,King,Bellevue,SR-520,10.1,ran off road right,Minor,Clear,Daylight,Dry,None,Fell asleep,SUV
+CR-2026-00153,2026-03-20,King,Seattle,SR-99,15.7,rear end collision,Injury minor,Clr,Day,dry,sig,texting,car
+CR-2026-00154,2026-03-20,Pierce,Puyallup,SR-512,6.2,angl,A injury,Rain,dark-lit,wet,stop sign,ftyw,pickup
+CR-2026-00155,2026-03-21,Snohomish,Marysville,I-5,199.8,ss-same,possible inj,snow,dark,ice,none,lane chng,suv
+CR-2026-00156,2026-03-21,Spokane,Spokane,US-2,280.4,ped struck,Fatal,foggy,nite,wet,crosswalk,did not yield to ped,sedan
+CR-2026-00157,2026-03-22,Thurston,Lacey,I-5,108.9,h/o,k,unk,unk,unk,unk,crossed centerline - dui,van
+CR-2026-00158,2026-03-22,Clark,Camas,SR-14,18.3,Single veh,O,rain,daylight,wet,none,overcorrected,motorcycle
+CR-2026-00159,2026-03-23,Whatcom,Ferndale,I-5,266.1,Veh 1 rear-ended Veh 2 stopped at red,C,overcast,pm,damp,traffic signal,inattention,Truck - single unit
+CR-2026-00160,2026-03-23,Yakima,Toppenish,US-97,36.7,left turn crash,Minor injuries,Clear sky,Midday,Dry pavement,Yield sign,Improper turn,Car
+CR-2026-00161,2026-03-24,Kittitas,Cle Elum,I-90,84.2,jackknife,PDO,Blowing snow,Early AM,Ice/packed snow,None,too fast/lost control,Semi-truck
+CR-2026-00162,2026-03-24,King,Renton,SR-167,3.8,rear,None apparent,fair,day,dry,light,following,auto
