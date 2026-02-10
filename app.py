@@ -80,7 +80,11 @@ def is_likely_id_column(column_name: str, sample_values: list) -> bool:
     name_lower = column_name.lower()
 
     # Name-based detection
-    id_keywords = ["id", "number", "num", "no", "key", "index", "record", "case", "date", "road", "street", "address", "location", "route", "highway"]
+    id_keywords = ["id", "number", "num", "no", "key", "index",
+                   "record", "case", "date", "road", "street",
+                   "address", "location", "route", "highway",
+                   "city", "county", "municipality", "jurisdiction",
+                   "latitude", "longitude", "lat", "long", "coords"]
     if any(kw in name_lower for kw in id_keywords):
         return True
 
@@ -293,7 +297,7 @@ if 'df' in st.session_state:
 
     # Show data preview
     with st.expander("Preview Data", expanded=False):
-        st.dataframe(df.head(10), use_container_width=True)
+        st.dataframe(df.head(10), width="stretch")
 
     # === TWO-TIER COLUMN MAPPING ===
     column_mappings = {}
@@ -473,7 +477,7 @@ if 'df' in st.session_state:
                         "method": st.column_config.TextColumn("Method", disabled=True),
                         "needs_review": st.column_config.TextColumn("Review")
                     },
-                    use_container_width=True,
+                    width="stretch",
                     hide_index=True
                 )
 
@@ -539,3 +543,4 @@ Created by AlexEngineered.  I’d love your feedback or suggestions.<br/>
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6BDS9OtoC_2Ue-porIyxJdClSO7vqDUh11biJrGxl_Q0-wQ/viewform" target="_blank">Send feedback via Google Forms</a>
 </small>
 """, unsafe_allow_html=True)
+
